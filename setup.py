@@ -68,8 +68,9 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.12',
     ],
+    python_requires='>=3.12',
     install_requires=load_requirements('requirements/base.in'),
     test_requires=load_requirements('requirements/base.in')
 )
