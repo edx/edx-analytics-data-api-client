@@ -9,7 +9,7 @@ class CourseSummaries(PostableCourseIDsEndpoint):
 
     path = 'course_summaries/'
 
-    def course_summaries(
+    def course_summaries(  # pylint: disable=too-many-positional-arguments
             self,
             course_ids=None,
             availability=None,
