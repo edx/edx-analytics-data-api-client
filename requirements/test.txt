@@ -4,13 +4,13 @@
 #
 #    make upgrade
 #
-astroid==4.0.4
+astroid==4.3.3
     # via pylint
 certifi==2026.7.22
     # via
     #   -r requirements/base.txt
     #   requests
-charset-normalizer==3.5.1
+charset-normalizer==3.5.2
     # via
     #   -r requirements/base.txt
     #   requests
@@ -30,7 +30,7 @@ idna==3.20
     #   requests
 iniconfig==2.3.0
     # via pytest
-isort==9.0.1
+isort==9.0.2
     # via pylint
 mccabe==0.7.0
     # via pylint
@@ -38,7 +38,7 @@ mypy-extensions==1.1.0
     # via isort
 packaging==26.3
     # via pytest
-platformdirs==4.12.1
+platformdirs==4.12.3
     # via pylint
 pluggy==1.6.0
     # via
@@ -50,7 +50,7 @@ pydocstyle==6.3.0
     # via -r requirements/test.in
 pygments==2.21.0
     # via pytest
-pylint==4.0.9
+pylint==4.1.2
     # via -r requirements/test.in
 pytest==9.1.1
     # via
@@ -62,7 +62,7 @@ requests==2.34.2
     # via -r requirements/base.txt
 snowballstemmer==3.1.1
     # via pydocstyle
-testfixtures==12.3.0
+testfixtures==12.4.0
     # via -r requirements/test.in
 tomlkit==0.15.1
     # via pylint
