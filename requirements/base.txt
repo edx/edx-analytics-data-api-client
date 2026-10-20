@@ -4,9 +4,9 @@
 #
 #    make upgrade
 #
-certifi==2026.7.22
+certifi==2026.10.19
     # via requests
-charset-normalizer==3.5.1
+charset-normalizer==3.5.2
     # via requests
 idna==3.20
     # via requests
@@ -16,5 +16,5 @@ urllib3==2.8.0
     # via requests
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==84.0.0
+setuptools==84.2.0
     # via -r requirements/base.in
