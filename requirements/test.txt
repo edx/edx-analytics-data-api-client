@@ -4,17 +4,17 @@
 #
 #    make upgrade
 #
-astroid==4.0.4
+astroid==4.3.4
     # via pylint
-certifi==2026.10.19
+certifi==2026.10.23
     # via
     #   -r requirements/base.txt
     #   requests
-charset-normalizer==3.5.1
+charset-normalizer==3.5.2
     # via
     #   -r requirements/base.txt
     #   requests
-coverage[toml]==7.16.2
+coverage[toml]==7.17.0
     # via
     #   -r requirements/test.in
     #   pytest-cov
@@ -28,9 +28,9 @@ idna==3.20
     # via
     #   -r requirements/base.txt
     #   requests
-iniconfig==2.3.0
+iniconfig==2.3.1
     # via pytest
-isort==9.0.1
+isort==9.0.2
     # via pylint
 mccabe==0.7.0
     # via pylint
@@ -38,9 +38,9 @@ mypy-extensions==1.1.0
     # via isort
 packaging==26.3
     # via pytest
-platformdirs==4.12.1
+platformdirs==4.13.6
     # via pylint
-pluggy==1.6.0
+pluggy==1.7.0
     # via
     #   pytest
     #   pytest-cov
@@ -50,7 +50,7 @@ pydocstyle==6.3.0
     # via -r requirements/test.in
 pygments==2.21.0
     # via pytest
-pylint==4.0.9
+pylint==4.1.3
     # via -r requirements/test.in
 pytest==9.1.1
     # via
@@ -62,9 +62,9 @@ requests==2.34.2
     # via -r requirements/base.txt
 snowballstemmer==3.1.1
     # via pydocstyle
-testfixtures==12.3.0
+testfixtures==12.4.0
     # via -r requirements/test.in
-tomlkit==0.15.1
+tomlkit==0.15.2
     # via pylint
 typing-extensions==4.16.0
     # via testfixtures
@@ -74,5 +74,5 @@ urllib3==2.8.0
     #   requests
 
 # The following packages are considered to be unsafe in a requirements file:
-setuptools==84.0.0
+setuptools==84.2.1
     # via -r requirements/base.txt
