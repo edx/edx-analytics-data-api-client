@@ -6,7 +6,7 @@
 #
 build==1.6.1
     # via pip-tools
-click==8.5.0
+click==8.5.1
     # via pip-tools
 packaging==26.3
     # via
@@ -26,5 +26,5 @@ pip==26.2.2
     # via
     #   -c requirements/common_constraints.txt
     #   pip-tools
-setuptools==84.0.0
+setuptools==84.2.1
     # via pip-tools
